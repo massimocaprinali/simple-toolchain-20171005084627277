@@ -10,7 +10,7 @@ gulp.task('mocha-test', function() {
      ignoreLeaks: true,
      ui: 'bdd',
      colors: true,
-     reporter: 'mocha-jenkins-reporter',
+     //reporter: 'mocha-jenkins-reporter',
      reporterOptions: {
        junit_report_name: 'Mocha Unit Tests',
        junit_report_path: 'test/mocha-report.xml',
